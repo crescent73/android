@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LightLight</string>
+    <string name="browse_button">Browse</string>
+    <string name="camera_button">Camera</string>
+    <string name="color_label">Color</string>
+    <string name="photo_content_description">Selected photo</string>
+    <string name="text_label">Text</string>
+    <string name="title_draw">Draw</string>
+    <string name="title_photo">Photo</string>
+    <string name="title_text">Text</string>
+    <string name="connect_item">Connect</string>
+    <string name="select_device">Select device:</string>
+    <string name="text_hint">Enter some text</string>
+    <string name="color_content_description">Selected color</string>
+    <string name="color_picker_title">Select text color</string>
+    <string name="no_connection">"Connection hasn't been established"</string>
+    <string name="send_success">Message sent successfully</string>
+    <string name="send_fail">Failed to send message</string>
+    <string name="stroke_width_label">Stroke Width</string>
+    <string name="clear">Clear</string>
+    <string name="fg_color_label">Foreground Color</string>
+    <string name="bg_color_label">Background Color</string>
+    <string name="no_camera">No camera available</string>
+    <string name="about">About</string>
+    <string name="connect_dialog_positive_button">Connect</string>
+    <string name="about_dialog_positive_button">Close</string>
+    <string name="no_device_selected">No device was selected</string>
+    <string-array name="stroke_width_array">
+        <item>Fine</item>
+        <item>Medium</item>
+        <item>Bold</item>
+    </string-array>
+    <string name="about_information">
+        <b>About</b>\n\nRCMatrix makes controlling your LED matrix display via Bluetooth easy. This
+        project is open source; check it out on
+        <a href="https://github.com/jeavila6/LEDMatrix">GitHub</a>.\n\n
+        <b>Credits</b>\n
+        <ul>\n
+            <li>ColorPicker by <a href="https://github.com/kristiyanP">kristiyanP</a> on
+                <a href="https://github.com/kristiyanP/colorpicker">GitHub</a></li>\n
+            <li>Coffee Cup Plate by <a href="https://unsplash.com/@reo">Emre Gencer</a> on
+                <a href="https://unsplash.com/photos/NZMeJsrMC8U">Unsplash</a></li>\n
+        </ul>
+    </string>
+</resources>

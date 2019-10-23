@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowBackground">@color/color_primary</item>
+        <item name="android:navigationBarColor">@color/color_primary_dark</item>
+    </style>
+
+    <!-- action bar style -->
+    <style name="ActionBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@drawable/bottom_border_background</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+
+    <!-- button theme -->
+    <style name="ButtonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+
+    <!-- bottom navigation view style -->
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@drawable/top_border_background</item>
+        <item name="itemTextColor">@color/bottom_navigation</item>
+        <item name="itemIconTint">@color/bottom_navigation</item>
+        <item name="labelVisibilityMode">unlabeled</item>
+    </style>
+
+    <!-- label text view style -->
+    <style name="LabelTheme" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- alert dialog style -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/color_primary</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogPositiveButtonTheme</item>
+    </style>
+
+    <!-- alert dialog positive button style-->
+    <style name="DialogPositiveButtonTheme" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/color_accent</item>
+    </style>
+</resources>
